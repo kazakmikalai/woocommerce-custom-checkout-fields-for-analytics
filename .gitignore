@@ -1,22 +1,85 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# WordPress плагин - BYGI Custom Checkout Fields for Analytics
+
+# Временные файлы
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Логи и отладочные файлы
+*.log
+debug.log
+error_log
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE и редакторы
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Временные файлы PHP
+*.cache
+*.bak
+*.backup
+
+# Node.js (если будет использоваться в будущем)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Composer (если будет использоваться в будущем)
+vendor/
+composer.lock
+
+# Git
+.git/
+.gitignore
+
+# WordPress core (если плагин будет в корне WordPress)
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/mu-plugins/
+wp-content/wp-cache-config.php
+
+# Плагины и темы (если в корне WordPress)
+wp-content/plugins/
+wp-content/themes/
+
+# База данных
+*.sql
+*.sqlite
+
+# Архивы
+*.zip
+*.tar.gz
+*.rar
+
+# Документация разработчика
+*.md~
+docs/
+documentation/
+
+# Тестовые файлы
+test/
+tests/
+*.test.php
+*.test.js
+
+# Конфигурационные файлы с секретами
+.env
+config.php
+wp-config-local.php 

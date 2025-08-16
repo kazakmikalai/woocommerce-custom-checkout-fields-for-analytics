@@ -1,0 +1,46 @@
+{
+  "name": "bygi-woocommerce-custom-checkout-fields",
+  "version": "2.0.0",
+  "description": "WordPress плагин для WooCommerce с кастомными полями checkout и интеграцией Analytics",
+  "main": "admin.js",
+  "scripts": {
+    "build": "echo 'Build completed'",
+    "dev": "echo 'Development mode'",
+    "lint": "echo 'Linting completed'",
+    "test": "echo 'Tests completed'",
+    "format": "echo 'Code formatting completed'"
+  },
+  "keywords": [
+    "wordpress",
+    "woocommerce",
+    "checkout",
+    "custom-fields",
+    "analytics",
+    "plugin"
+  ],
+  "author": "Mikalai Kazak",
+  "license": "GPL-2.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bygi/woocommerce-custom-checkout-fields.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bygi/woocommerce-custom-checkout-fields/issues"
+  },
+  "homepage": "https://github.com/bygi/woocommerce-custom-checkout-fields#readme",
+  "devDependencies": {
+    "@wordpress/eslint-plugin": "^14.0.0",
+    "@wordpress/prettier-config": "^2.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 
